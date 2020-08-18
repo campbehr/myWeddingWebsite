@@ -1,11 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
 
-export default function About() {
+export default function Party() {
   return (
     <div>
       <Layout>
-        <h1>About</h1>
+        <h1>Party</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam
