@@ -1,0 +1,45 @@
+.nav {
+  background-color: lavender;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding-left: 10px;
+}
+
+.nav .hamburger {
+  margin-top: 10px;
+}
+
+.nav .hamburger div {
+  height: 2px;
+  width: 20px;
+  background-color: black;
+  margin-top: 3px;
+}
+
+.nav ul {
+  padding-left: 25px;
+}
+
+.nav ul a {
+  display: block;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 600px) {
+  .nav {
+    position: relative;
+    top: auto;
+    width: auto;
+    text-align: center;
+  }
+  .nav .hamburger {
+    display: none;
+  }
+  .nav ul a {
+    display: inline;
+    padding: 2em;
+  }
+}
+/*# sourceMappingURL=navStyles.module.css.map */
