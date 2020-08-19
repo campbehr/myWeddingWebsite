@@ -2,7 +2,7 @@ import React from "react"
 import Header from "./header"
 import Nav from "./nav"
 import Footer from "./footer"
-import layoutStyles from "../styles/layoutStyles.module.css"
+import layoutStyles from "../styles/layoutStyles/layoutStyles.module.css"
 
 export default function Layout({ children }) {
   return (
