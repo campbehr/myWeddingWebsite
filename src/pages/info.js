@@ -5,7 +5,7 @@ export default function Info() {
   return (
     <div>
       <Layout>
-        <h1>Info</h1>
+        <h2>Info</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam

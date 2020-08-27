@@ -5,7 +5,7 @@ export default function Registry() {
   return (
     <div>
       <Layout>
-        <h1>Registry</h1>
+        <h2>Registry</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam
