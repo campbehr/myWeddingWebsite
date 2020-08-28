@@ -27,13 +27,13 @@ export default function Burger() {
   const [open, setOpen] = useState(false)
 
   return (
-    <>
+    <div>
       <StyledBurger open={open} onClick={() => setOpen(!open)}>
         <div />
         <div />
         <div />
       </StyledBurger>
       <DropNav open={open} />
-    </>
+    </div>
   )
 }
