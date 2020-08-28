@@ -1,7 +1,6 @@
 import React from "react"
 import Header from "./header"
 import Nav from "./navbtn/nav"
-import Footer from "./footer"
 import styled from "styled-components"
 
 const Grid = styled.div`
@@ -14,7 +13,6 @@ const Grid = styled.div`
     1fr;
 
   header {
-    color: #68b0ab;
     text-align: center;
     grid-area: header;
     border: 0px solid tomato;
@@ -55,11 +53,10 @@ const Grid = styled.div`
 
 export default function Layout({ children }) {
   return (
-    <Grid>
+    <Grid id="bootstrap_override">
       <Header />
       <Nav />
       <main>{children}</main>
-      <Footer />
     </Grid>
   )
 }

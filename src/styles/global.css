@@ -1,43 +1,59 @@
-html,
-body {
-  margin: 0;
-  padding: 0;
-  background-color: rgb(254, 253, 249);
+html {
+  background-color: #dedbd1 !important;
 }
 
-nav {
+html,
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  background-image: linear-gradient(45deg, #dedbd1, #f5f2e7, white) !important;
+}
+
+#bootstrap_override header {
+  color: #68b0ab;
+}
+
+#bootstrap_override nav {
   position: absolute;
   top: 0;
 }
 
-h1 {
+#bootstrap_override h1 {
   font-size: 5em;
   font-weight: 100;
   font-family: "Allura", cursive;
   margin: 0.5em 0 0 0;
-  color: rgb(157, 204, 201);
+  color: #9dccc9;
 }
 
-h2 {
+#bootstrap_override h2 {
   font-size: 2em;
   line-height: 2rem;
   padding-left: 1rem;
-  color: rgb(130, 130, 0);
+  color: #828200;
 }
 
-p {
+#bootstrap_override p {
   text-justify: inter-word;
   line-height: 1.5rem;
   padding: 0 1rem 0 1rem;
-  color: rgb(130, 130, 0);
+  color: #828200;
 }
 
-ul {
+#bootstrap_override ul {
   list-style: none;
   position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: column nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   top: 0;
   right: 0;
   padding-top: 3.5rem;
@@ -47,60 +63,59 @@ ul {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-ul a {
+#bootstrap_override ul a {
   display: block;
-  align-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   text-decoration: none;
   margin-top: 2rem;
-  color: rgb(130, 130, 0);
+  color: #828200;
 }
 
 @media screen and (min-width: 600px) {
-  nav {
+  #bootstrap_override nav {
     position: relative;
   }
-
-  h1 {
+  #bootstrap_override h1 {
     font-size: 6em;
     margin-top: 0;
   }
-
-  p {
+  #bootstrap_override p {
     font-size: 16px;
   }
-
-  ul {
+  #bootstrap_override ul {
     position: relative;
-    flex-flow: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
     padding: 0 0 0 4em;
     height: auto;
     width: auto;
     background-color: rgba(0, 0, 0, 0);
   }
-
-  ul a {
+  #bootstrap_override ul a {
     font-size: 1.3em;
     margin: 1em auto 0 0;
   }
 }
 
 @media screen and (min-width: 815px) {
-  h1 {
+  #bootstrap_override h1 {
     font-size: 9em;
     line-height: 7rem;
     margin-top: 0.25em;
     padding: 0;
   }
-
-  h2 {
+  #bootstrap_override h2 {
     font-size: 2.3em;
   }
-
-  p {
+  #bootstrap_override p {
     font-size: 18px;
   }
-
-  ul a {
+  #bootstrap_override ul a {
     font-size: 1.6em;
   }
 }
+/*# sourceMappingURL=global.css.map */
