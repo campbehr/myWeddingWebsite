@@ -35,7 +35,7 @@ body {
   h2 {
     font-size: 2em;
     line-height: 2rem;
-    padding-left: 1rem;
+    // padding-left: 1rem;
     color: rgb(130, 130, 0);
   }
 
@@ -64,7 +64,6 @@ body {
   ul a {
     display: block;
     align-self: center;
-    text-decoration: none;
     margin-top: 2rem;
     color: rgb(130, 130, 0);
   }
@@ -89,6 +88,7 @@ body {
       padding: 0 0 0 4em;
       height: auto;
       width: auto;
+      text-decoration: line-through;
       background-color: rgba(0, 0, 0, 0);
     }
 

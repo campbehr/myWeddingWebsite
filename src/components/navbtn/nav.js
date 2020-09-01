@@ -9,11 +9,18 @@ const Navbar = styled.nav`
     }
   }
 `
+const Underline = styled.div`
+  height: 2px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(130, 130, 0);
+`
 
 export default function Nav() {
   return (
     <Navbar>
       <Burger />
+      <Underline />
     </Navbar>
   )
 }

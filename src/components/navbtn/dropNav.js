@@ -9,10 +9,10 @@ const Ul = styled.ul`
 export default function DropNav({ open }) {
   return (
     <Ul open={open}>
-      <Link to="/">About</Link>
+      <Link to="/">Home</Link>
       <Link to="/info/">Info</Link>
-      <Link to="/party/">Party</Link>
-      <Link to="/photos/">Photos</Link>
+      <Link to="/party/">Wedding Party</Link>
+      <Link to="/gallery/">Gallery</Link>
       <Link to="/registry/">Registry</Link>
     </Ul>
   )
