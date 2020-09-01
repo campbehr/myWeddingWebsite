@@ -22,14 +22,7 @@ export default function HeroCarousel() {
 
   return (
     <div style={{ opacity: ".99" }}>
-      <Carousel
-        slide="false"
-        fade="true"
-        interval="6000"
-        nextIcon=""
-        prevIcon=""
-        pause="false"
-      >
+      <Carousel slide="false" fade="true" nextIcon=">" prevIcon="<">
         <Carousel.Item>
           <Img
             className="d-block w-100"

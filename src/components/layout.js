@@ -26,6 +26,7 @@ const Grid = styled.div`
   }
   main {
     grid-area: main;
+    margin-top: 4em;
     border: 0px solid tan;
   }
   @media screen and (min-width: 600px) {
@@ -47,7 +48,7 @@ const Grid = styled.div`
       ". nav ." 6em
       ". main ." auto
       ". footer ." 5em /
-      1fr minmax(700px, 950px) 1fr;
+      1fr minmax(700px, 900px) 1fr;
   }
 `
 
