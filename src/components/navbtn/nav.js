@@ -24,3 +24,5 @@ export default function Nav() {
     </Navbar>
   )
 }
+
+// Nav is imported into the Layout Component

@@ -1,5 +1,6 @@
 html {
   background-color: #dedbd1 !important;
+  overflow-y: scroll !important;
 }
 
 html,
@@ -27,9 +28,13 @@ body {
 }
 
 #bootstrap_override h2 {
-  font-size: 2em;
-  line-height: 2rem;
-  padding-left: 1rem;
+  font-size: 1.5em;
+  text-decoration: underline;
+  color: #828200;
+}
+
+#bootstrap_override h3 {
+  font-size: 1em;
   color: #828200;
 }
 
@@ -68,7 +73,6 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  text-decoration: none;
   margin-top: 2rem;
   color: #828200;
 }
@@ -80,6 +84,9 @@ body {
   #bootstrap_override h1 {
     font-size: 6em;
     margin-top: 0;
+  }
+  #bootstrap_override h2 {
+    font-size: 1.25em;
   }
   #bootstrap_override p {
     font-size: 16px;
@@ -93,6 +100,7 @@ body {
     padding: 0 0 0 4em;
     height: auto;
     width: auto;
+    text-decoration: none;
     background-color: rgba(0, 0, 0, 0);
   }
   #bootstrap_override ul a {
@@ -107,9 +115,6 @@ body {
     line-height: 7rem;
     margin-top: 0.25em;
     padding: 0;
-  }
-  #bootstrap_override h2 {
-    font-size: 2.3em;
   }
   #bootstrap_override p {
     font-size: 18px;
