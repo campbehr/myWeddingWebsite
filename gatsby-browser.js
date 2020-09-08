@@ -1,5 +1,4 @@
 import "typeface-allura"
-import "typeface-amatic-sc"
 import "./src/styles/global.css"
 /**
  * Implement Gatsby's Browser APIs in this file.

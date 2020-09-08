@@ -10,3 +10,5 @@ export default function Header() {
     </header>
   )
 }
+
+// Used as the home icon and title of top of pages

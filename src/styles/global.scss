@@ -1,5 +1,6 @@
 html {
   background-color: rgb(222, 219, 209) !important;
+  overflow-y: scroll !important;
 }
 
 html,
@@ -14,6 +15,7 @@ body {
   ) !important;
 }
 
+// Wrapped Grid within Layout component to override Bootsrap CSS used for Carousel
 #bootstrap_override {
   header {
     color: rgb(104, 176, 171);
@@ -33,9 +35,13 @@ body {
   }
 
   h2 {
-    font-size: 2em;
-    line-height: 2rem;
-    // padding-left: 1rem;
+    font-size: 1.5em;
+    text-decoration: underline;
+    color: rgb(130, 130, 0);
+  }
+
+  h3 {
+    font-size: 1em;
     color: rgb(130, 130, 0);
   }
 
@@ -61,6 +67,7 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
   }
 
+  // a tags act as list elements due to built in Link function of Gatsby
   ul a {
     display: block;
     align-self: center;
@@ -78,6 +85,10 @@ body {
       margin-top: 0;
     }
 
+    h2 {
+      font-size: 1.25em;
+    }
+
     p {
       font-size: 16px;
     }
@@ -88,7 +99,7 @@ body {
       padding: 0 0 0 4em;
       height: auto;
       width: auto;
-      text-decoration: line-through;
+      text-decoration: none;
       background-color: rgba(0, 0, 0, 0);
     }
 
@@ -106,10 +117,6 @@ body {
       padding: 0;
     }
 
-    h2 {
-      font-size: 2.3em;
-    }
-
     p {
       font-size: 18px;
     }
@@ -119,3 +126,5 @@ body {
     }
   }
 }
+
+// All styling for individual pages done through styling components.

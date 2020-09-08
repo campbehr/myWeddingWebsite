@@ -1,8 +1,13 @@
 import React from "react"
 import Header from "./header"
 import Nav from "./navbtn/nav"
+import Transition from "../components/pageTransition"
 import styled from "styled-components"
+import favicon from "../images/favicon.ico"
+import { Helmet } from "react-helmet"
+import { siteMetadata } from "../../gatsby-config"
 
+// All styling for grid is done on this page through styled components
 const Grid = styled.div`
   display: grid;
   min-height: 100vh;
@@ -20,6 +25,7 @@ const Grid = styled.div`
       text-decoration: none;
     }
   }
+
   footer {
     grid-area: footer;
     border: 0px solid olive;
@@ -27,6 +33,7 @@ const Grid = styled.div`
   main {
     grid-area: main;
     margin-top: 4em;
+
     border: 0px solid tan;
   }
   @media screen and (min-width: 600px) {
@@ -42,6 +49,10 @@ const Grid = styled.div`
     margin: 1em 1em 0 1em;
   }
 
+  span {
+    margin: 1.5em 0 1.5em 0;
+  }
+
   @media screen and (min-width: 815px) {
     grid:
       ". header ." 9em
@@ -54,10 +65,18 @@ const Grid = styled.div`
 
 export default function Layout({ children }) {
   return (
-    <Grid id="bootstrap_override">
-      <Header />
-      <Nav />
-      <main>{children}</main>
-    </Grid>
+    <>
+      <Helmet>
+        <link rel="icon" href={favicon} />
+        <title>{siteMetadata.title}</title>
+      </Helmet>
+      <Grid id="bootstrap_override">
+        <Header />
+        <Nav />
+        <main>
+          <Transition>{children}</Transition>
+        </main>
+      </Grid>
+    </>
   )
 }
