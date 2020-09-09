@@ -4,11 +4,24 @@ import Layout from "../components/layout"
 import styled from "styled-components"
 import PageBreak from "../components/pageBreak"
 
+const StyledParty = styled.div`
+  span {
+    display: none;
+  }
+  @media screen and (min-width: 600px) {
+    span {
+      display: block;
+      margin: 24px auto;
+    }
+  }
+`
+
 const Honor = styled.div`
   text-align: center;
 
-  h2 {
-    margin-bottom: 1em;
+  h3 {
+    text-decoration: underline;
+    margin-top: 1em;
   }
 
   @media screen and (min-width: 600px) {
@@ -22,53 +35,67 @@ const Honor = styled.div`
   }
 `
 
-const StyledParty = styled.div`
+const StyledGroup = styled.div`
   text-align: center;
 
-  h2 {
-    margin-bottom: 1em;
+  h3 {
+    text-decoration: underline;
+    margin-top: 1em;
   }
-  @media screen and (min-width: 600) {
+
+  @media screen and (min-width: 600px) {
+    display: flex;
+    flow-direction: row;
+    justify-content: space-evenly;
+  }
+
+  div {
+    align-self: center;
+  }
+
+  p {
+    margin: 0;
   }
 `
 
 const Party = () => (
-  <div>
+  <StyledParty>
     <Layout>
       <Honor>
         <div>
-          <h2>
+          <h3>
             Matron
             <br /> of Honor
-          </h2>
-          <p>Erica Nalbone</p>
+          </h3>
+          <h4>Erica Nalbone</h4>
         </div>
         <div>
-          <h2>Best Man</h2>
-          <p>Benton Wise</p>
+          <h3>Best Man</h3>
+          <h4>Benton Wise</h4>
         </div>
       </Honor>
       <PageBreak />
-      <StyledParty>
-        <h2>Bridesmaids</h2>
-        <p>Haley Campbell</p>
-        <p>Alexis Almeida</p>
-        <p>Brittain Torgerson</p>
-        <p>Gabrielle Ganal</p>
-        <p>Leah Levendusky</p>
-      </StyledParty>
-      <PageBreak />
-      <StyledParty>
-        <h2>Groomsmen</h2>
-        <p>Alec Goebel</p>
-        <p>Coy Little</p>
-        <p>Jacob Mided</p>
-        <p>Nathan Kuhns</p>
-        <p>Steven Bodie</p>
-      </StyledParty>
+      <StyledGroup>
+        <div>
+          <h3>Bridesmaids</h3>
+          <h4>Haley Camh4bell</h4>
+          <h4>Alexis Almeida</h4>
+          <h4>Brittain Torgerson</h4>
+          <h4>Gabrielle Ganal</h4>
+          <h4>Leah Levendusky</h4>
+        </div>
+        <div>
+          <h3>Groomsmen</h3>
+          <h4>Alec Goebel</h4>
+          <h4>Coy Little</h4>
+          <h4>Jacob Mided</h4>
+          <h4>Nathan Kuhns</h4>
+          <h4>Steven Bodie</h4>
+        </div>
+      </StyledGroup>
     </Layout>
     <Footer />
-  </div>
+  </StyledParty>
 )
 
 export default Party

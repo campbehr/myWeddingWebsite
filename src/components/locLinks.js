@@ -9,7 +9,7 @@ const StyledLink = styled.a`
 
   p {
     margin: 0;
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   @media screen and (min-width: 600px) {

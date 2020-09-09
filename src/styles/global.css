@@ -23,7 +23,7 @@ body {
   font-size: 5em;
   font-weight: 100;
   font-family: "Allura", cursive;
-  margin: 0.5em 0 0 0;
+  margin: 0.5em 0 0.5em 0;
   color: #9dccc9;
 }
 
@@ -34,12 +34,19 @@ body {
 }
 
 #bootstrap_override h3 {
-  font-size: 1em;
+  font-size: 1.1em;
+  color: #828200;
+}
+
+#bootstrap_override h4 {
+  font-size: 1.5em;
+  font-family: "Allura", cursive;
   color: #828200;
 }
 
 #bootstrap_override p {
   text-justify: inter-word;
+  font-size: 1rem;
   line-height: 1.5rem;
   padding: 0 1rem 0 1rem;
   color: #828200;
@@ -83,13 +90,10 @@ body {
   }
   #bootstrap_override h1 {
     font-size: 6em;
-    margin-top: 0;
+    margin: 0;
   }
-  #bootstrap_override h2 {
-    font-size: 1.25em;
-  }
-  #bootstrap_override p {
-    font-size: 16px;
+  #bootstrap_override h3 {
+    font-size: 1.05em;
   }
   #bootstrap_override ul {
     position: relative;
@@ -97,6 +101,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-flow: row;
             flex-flow: row;
+    margin-bottom: 0;
     padding: 0 0 0 4em;
     height: auto;
     width: auto;
@@ -104,23 +109,22 @@ body {
     background-color: rgba(0, 0, 0, 0);
   }
   #bootstrap_override ul a {
-    font-size: 1.3em;
+    font-size: 1.1em;
     margin: 1em auto 0 0;
   }
 }
 
 @media screen and (min-width: 815px) {
   #bootstrap_override h1 {
-    font-size: 9em;
+    font-size: 8em;
     line-height: 7rem;
-    margin-top: 0.25em;
     padding: 0;
   }
   #bootstrap_override p {
     font-size: 18px;
   }
   #bootstrap_override ul a {
-    font-size: 1.6em;
+    font-size: 1.3em;
   }
 }
 /*# sourceMappingURL=global.css.map */
