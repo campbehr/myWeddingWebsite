@@ -20,7 +20,7 @@ const Grid = styled.div`
   header {
     text-align: center;
     grid-area: header;
-    border: 0px solid tomato;
+
     a {
       text-decoration: none;
     }
@@ -28,18 +28,14 @@ const Grid = styled.div`
 
   footer {
     grid-area: footer;
-    border: 0px solid olive;
   }
   main {
     grid-area: main;
-    margin-top: 4em;
-
-    border: 0px solid tan;
+    margin-top: 0;
   }
   @media screen and (min-width: 600px) {
     nav {
       grid-area: nav;
-      border: 0px solid teal;
     }
     grid:
       ". header ." 8em
@@ -55,8 +51,8 @@ const Grid = styled.div`
 
   @media screen and (min-width: 815px) {
     grid:
-      ". header ." 9em
-      ". nav ." 6em
+      ". header ." 7.5em
+      ". nav ." 5em
       ". main ." auto
       ". footer ." 5em /
       1fr minmax(700px, 900px) 1fr;

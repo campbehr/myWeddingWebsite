@@ -12,12 +12,8 @@ const StyledHoneymoon = styled.div`
   .right {
     order: 1;
 
-    h2 {
-      padding-left: 1rem;
-    }
-
-    p {
-      padding-right: 1em;
+    h4 {
+      padding: 0 1em 0 1em;
     }
   }
 
@@ -28,25 +24,31 @@ const StyledHoneymoon = styled.div`
     order: 2;
 
     Img {
-      margin-top: 2em;
+      margin-top: 1em;
     }
   }
 
   @media screen and (min-width: 815px) {
     flex-direction: row;
+    margin-top: 1em;
 
     .right {
       order: 2;
+      margin: 0 0 0 1em;
+      padding: 0;
 
-      padding: 0 6em 0 6em;
+      h4 {
+        padding: 0 4em 0 4em;
+      }
     }
 
     .left {
       order: 1;
+      margin-left: 4em;
 
       Img {
-        margin-top: 0;
-        padding-bottom: 1em;
+        margin: 0;
+        padding-bottom: 0.5em;
       }
     }
   }
@@ -63,7 +65,7 @@ export default function Honeymoon() {
           id
           name
           childImageSharp {
-            fixed(quality: 100, width: 300) {
+            fixed(quality: 100, width: 350) {
               ...GatsbyImageSharpFixed
             }
           }
@@ -77,12 +79,18 @@ export default function Honeymoon() {
       <Layout>
         <StyledHoneymoon>
           <div className="right">
-            <h2>Honeymoon</h2>
-            <p>
-              We love to travel and we're looking forward to taking our first
-              trip abroad as husband and wife. If you'd like to give a gift, we
-              would appreciate a contribution to our travel fund.
-            </p>
+            <h4>
+              Dear family and friends, as you know, we <b>LOVE</b> to travel and
+              we're looking forward to taking our first trip abroad as husband
+              and wife. Your presence at our wedding is the ultimate gift. If
+              you would like to contribute more we would graciously accept a
+              contribution to our honeymoon/travel fund.
+              <br />
+              <br />
+              Love,
+              <br />
+              Kelly & Hunter
+            </h4>
           </div>
           <div className="left">
             {data.honeymoonImg.nodes.map(images => (

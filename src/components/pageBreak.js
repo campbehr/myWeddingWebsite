@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 
 const StyledBreak = styled.span`
-  display: none;
+  /* display: none; */
   text-align: center;
   font-size: 1em;
   color: rgb(157, 204, 201);
