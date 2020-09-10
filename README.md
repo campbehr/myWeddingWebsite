@@ -8,8 +8,8 @@
   Gatsby's default starter
 </h1>
 
-**See the live site at**
-goebel2campbell.com
+**See the live site**
+[here](https://www.goebel2campbell.com)._
 
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 
