@@ -38,7 +38,7 @@ const StyledRegistry = styled.div`
       padding: 0;
 
       h4 {
-        padding: 0 4em 0 2em;
+        margin-left: 1em;
         text-align: justify;
       }
     }
