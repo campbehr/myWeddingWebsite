@@ -13,7 +13,7 @@ export default function DropNav({ open }) {
       <Link to="/event/">Event</Link>
       <Link to="/party/">Wedding Party</Link>
       <Link to="/gallery/">Gallery</Link>
-      <Link to="/honeymoon/">Honeymoon</Link>
+      <Link to="/registry/">Registry</Link>
     </Ul>
   )
 }

@@ -44,7 +44,7 @@ const WeddingInfo = styled.div`
       }
 
       h4 {
-        margin: 0.5em 0 0.5em 0;
+        margin: 0 0 0.5em 0;
       }
 
       p {
@@ -88,27 +88,22 @@ const Event = () => (
             4:30 pm
           </p>
         </div>
-
         <div>
           <h4>
-            Reception immediately to follow.
+            Cocktails, dinner, and live music immediately to follow
             <br />
-            Black tie optional.
-            <br />
-            Parking at the venue will be limited to spots around the perimeter.
+            Black tie optional
           </h4>
         </div>
-
-        <PageBreak />
 
         <div>
           <h2>Travel Information</h2>
         </div>
-
         <div>
           <h4>
             Reservations for hotel rooms can be made at a reduced rate before
-            March 3, 2021. Please click on a hotel for a direct link.
+            March 3, 2021.
+            <br /> Please click below for a direct link to book.
           </h4>
         </div>
         <div>
