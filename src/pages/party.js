@@ -78,10 +78,10 @@ const Party = () => (
       <StyledGroup>
         <div>
           <h3>Bridesmaids</h3>
-          <h4>Haley Camh4bell</h4>
+          <h4>Haley Campbell</h4>
           <h4>Alexis Almeida</h4>
           <h4>Brittain Torgerson</h4>
-          <h4>Gabrielle Ganal</h4>
+          <h4>Gabrielle Genal</h4>
           <h4>Leah Levendusky</h4>
         </div>
         <div>
@@ -89,7 +89,7 @@ const Party = () => (
           <h4>Alec Goebel</h4>
           <h4>Coy Little</h4>
           <h4>Jacob Mided</h4>
-          <h4>Nathan Kuhns</h4>
+          <h4>Nate Kuhns</h4>
           <h4>Steven Bodie</h4>
         </div>
       </StyledGroup>

@@ -5,7 +5,7 @@ import styled from "styled-components"
 import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 
-const StyledHoneymoon = styled.div`
+const StyledRegistry = styled.div`
   display: flex;
   flex-direction: column;
 
@@ -34,11 +34,12 @@ const StyledHoneymoon = styled.div`
 
     .right {
       order: 2;
-      margin: 0 0 0 1em;
+      margin: 0;
       padding: 0;
 
       h4 {
-        padding: 0 4em 0 4em;
+        padding: 0 4em 0 2em;
+        text-align: justify;
       }
     }
 
@@ -77,14 +78,16 @@ export default function Honeymoon() {
   return (
     <div>
       <Layout>
-        <StyledHoneymoon>
+        <StyledRegistry>
           <div className="right">
             <h4>
-              Dear family and friends, as you know, we <b>LOVE</b> to travel and
-              we're looking forward to taking our first trip abroad as husband
-              and wife. Your presence at our wedding is the ultimate gift. If
-              you would like to contribute more we would graciously accept a
-              contribution to our honeymoon/travel fund.
+              Dear Family and Friends,
+              <br />
+              <br />
+              As you know, we <u>love</u> to travel and we're looking forward to
+              taking our first trip abroad as husband and wife! So, instead of
+              creating a registry, we are graciously accepting any contribution
+              you would like to make to our honeymoon/travel fund.
               <br />
               <br />
               Love,
@@ -101,7 +104,7 @@ export default function Honeymoon() {
               />
             ))}
           </div>
-        </StyledHoneymoon>
+        </StyledRegistry>
       </Layout>
       <Footer />
     </div>
