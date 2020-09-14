@@ -127,7 +127,7 @@ const Event = () => (
           />
           <LocationLinks
             link={
-              "https://www.hilton.com/en/hotels/caecogi-hilton-garden-inn-columbia-harbison/"
+              "https://hiltongardeninn.hilton.com/en/gi/groups/personalized/C/CAECOGI-GCWEDD-20210402/index.jhtml?WT.mc_id=POG"
             }
             headerText={"Hilton Garden Inn"}
             streetAddress={"434 Columbiana Dr"}
