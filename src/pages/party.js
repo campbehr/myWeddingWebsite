@@ -82,6 +82,7 @@ const Party = () => (
           <h4>Alexis Almeida</h4>
           <h4>Brittain Torgerson</h4>
           <h4>Gabrielle Genal</h4>
+          <h4>Lexi Wright</h4>
           <h4>Leah Levendusky</h4>
         </div>
         <div>

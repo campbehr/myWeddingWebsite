@@ -53,6 +53,10 @@ body {
   color: #828200;
 }
 
+#bootstrap_override label {
+  color: #828200;
+}
+
 #bootstrap_override ul {
   list-style: none;
   position: fixed;

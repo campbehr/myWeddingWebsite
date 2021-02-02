@@ -2,7 +2,6 @@ import React from "react"
 import Footer from "../components/footer"
 import Layout from "../components/layout"
 import LocationLinks from "../components/locLinks"
-import PageBreak from "../components/pageBreak"
 import styled from "styled-components"
 
 const WeddingInfo = styled.div`

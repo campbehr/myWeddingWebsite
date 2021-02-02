@@ -11,6 +11,7 @@ export default function DropNav({ open }) {
     <Ul open={open}>
       <Link to="/">Home</Link>
       <Link to="/event/">Event</Link>
+      <Link to="/RSVP/">RSVP</Link>
       <Link to="/party/">Wedding Party</Link>
       <Link to="/gallery/">Gallery</Link>
       <Link to="/registry/">Registry</Link>
