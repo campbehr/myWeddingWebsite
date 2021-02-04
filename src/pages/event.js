@@ -84,7 +84,7 @@ const Event = () => (
           <p>
             April 3, 2021
             <br />
-            4:30 pm
+            4:00 pm
           </p>
         </div>
         <div>
