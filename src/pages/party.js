@@ -64,6 +64,11 @@ const Party = () => (
       <Honor>
         <div>
           <h3>
+            Maid
+            <br /> of Honor
+          </h3>
+          <h4>Leah Levendusky</h4>
+          <h3>
             Matron
             <br /> of Honor
           </h3>
@@ -81,9 +86,8 @@ const Party = () => (
           <h4>Haley Campbell</h4>
           <h4>Alexis Almeida</h4>
           <h4>Brittain Torgerson</h4>
-          <h4>Gabrielle Genal</h4>
           <h4>Lexi Wright</h4>
-          <h4>Leah Levendusky</h4>
+          <h4>Gabrielle Genal</h4>
         </div>
         <div>
           <h3>Groomsmen</h3>

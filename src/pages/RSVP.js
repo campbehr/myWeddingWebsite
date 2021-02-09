@@ -79,13 +79,13 @@ const RSVP = () => {
   }
 
   const handleSubmit = e => {
-    // fetch("/", {
-    //   method: "POST",
-    //   headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    //   body: encode({ "form-name": "contact", ...user }),
-    // })
-    //   .then(() => alert("Success!"))
-    //   .catch(error => alert(error))
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "contact", ...user }),
+    })
+      .then(() => alert("Success!"))
+      .catch(error => alert(error))
 
     e.preventDefault()
 
