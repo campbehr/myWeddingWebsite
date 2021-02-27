@@ -2,7 +2,6 @@ import React from "react"
 import Footer from "../components/footer"
 import Layout from "../components/layout"
 import LocationLinks from "../components/locLinks"
-import PageBreak from "../components/pageBreak"
 import styled from "styled-components"
 
 const WeddingInfo = styled.div`
@@ -71,7 +70,11 @@ const Event = () => (
     <Layout>
       <WeddingInfo>
         <div>
-          <h2>Ceremony</h2>
+          <h2>
+            Ceremony
+            <br />
+            (all events to be held outside)
+          </h2>
         </div>
         <div>
           <LocationLinks
@@ -85,7 +88,7 @@ const Event = () => (
           <p>
             April 3, 2021
             <br />
-            4:30 pm
+            4:00 pm
           </p>
         </div>
         <div>
@@ -111,7 +114,7 @@ const Event = () => (
             link={
               "http://www.hilton.com/en/hi/groups/personalized/C/CAECCHF-CWD-20210402/index.jhtml"
             }
-            headerText={"Hilton"}
+            headerText={"Hilton (recommended)"}
             streetAddress={"924 Senate Street"}
             cityStateZip={"Columbia, SC 29201"}
             phoneNum={"ph:(803) 744-7800"}

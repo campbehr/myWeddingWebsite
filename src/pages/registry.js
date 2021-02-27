@@ -84,10 +84,16 @@ export default function Honeymoon() {
               Dear Family and Friends,
               <br />
               <br />
-              As you know, we <u>love</u> to travel and we're looking forward to
-              taking our first trip abroad as husband and wife! So, instead of
-              creating a registry, we are graciously accepting any contribution
-              you would like to make to our honeymoon/travel fund.
+              As you know, we love to travel and we're looking forward to taking
+              our first trip abroad as husband and wife! So, instead of creating
+              a registry, we are graciously accepting any contribution you would
+              like to make to our honeymoon/travel fund. Please follow the link
+              provided below for more information.
+              <br />
+              <br />
+              <a href="https://www.honeyfund.com/wedding/campbell-goebel-04-03-2021">
+                Click here to contribute to our Honeymoon Fund
+              </a>
               <br />
               <br />
               Love,
