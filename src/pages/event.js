@@ -70,7 +70,11 @@ const Event = () => (
     <Layout>
       <WeddingInfo>
         <div>
-          <h2>Ceremony</h2>
+          <h2>
+            Ceremony
+            <br />
+            (all events to be held outside)
+          </h2>
         </div>
         <div>
           <LocationLinks
@@ -110,7 +114,7 @@ const Event = () => (
             link={
               "http://www.hilton.com/en/hi/groups/personalized/C/CAECCHF-CWD-20210402/index.jhtml"
             }
-            headerText={"Hilton"}
+            headerText={"Hilton (recommended)"}
             streetAddress={"924 Senate Street"}
             cityStateZip={"Columbia, SC 29201"}
             phoneNum={"ph:(803) 744-7800"}

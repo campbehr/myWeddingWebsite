@@ -123,6 +123,7 @@ const RSVP = () => {
             type="text"
             value={user.fName}
             onChange={handleChange}
+            required
           />
           <label name="lName">Last Name</label>
           <input
@@ -130,6 +131,7 @@ const RSVP = () => {
             type="text"
             value={user.lName}
             onChange={handleChange}
+            required
           />
           <label name="entree">Entree</label>
           <select name="entree" value={user.entree} onChange={handleChange}>
