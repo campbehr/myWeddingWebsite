@@ -106,10 +106,11 @@ const RSVP = () => {
             margin: "0 auto",
           }}
         >
-          If you are able to join us, please enter your name below and select
-          your entree for the reception by March 10, 2021.
+          Thank you for attending!
+          <br />
+          -The Campbells
         </h4>
-        <Form
+        {/* <Form
           onSubmit={handleSubmit}
           name="contact"
           method="post"
@@ -148,7 +149,7 @@ const RSVP = () => {
           </select>
 
           <button type="submit">Submit</button>
-        </Form>
+        </Form> */}
       </Layout>
       <Footer />
     </div>
